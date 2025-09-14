@@ -1,7 +1,7 @@
-package chessgame;
+package kshitij.tictactoe.exceptions;
 
 public class InvalidMoveException extends RuntimeException {
-    public InvalidMoveException(final String message) {
+    public InvalidMoveException(String message) {
         super(message);
     }
 }
